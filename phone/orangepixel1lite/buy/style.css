@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Han Sans CN;
+}
+
+::selection{
+    color: #000;
+    background: #fff;
+}
+
+nav{
+    position: fixed;
+    background: #1a1a1a00;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100;
+}
+nav .menu{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.menu .logo{
+    z-index: 200000;
+}
+.menu .logo img{
+    max-width: 15vw;
+    z-index: 200000;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 1vw;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 3vmin;
+    font-weight: 500;
+    padding: 1vmin 1.5vmin;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+    color: #fe9900;
+}
+
+.buy{
+    position: absolute;
+    top: 15vh;
+    padding: 0 30px;
+}
+
+.buy .title{
+    font-size: 5vmin;
+}
+
+.buy .choose{
+    font-size: 3vmin;
+}
+
+.buy .choose .choose1{
+    display: inline-block;
+    width: 50vw;
+}
+
+.buy .choose .choose2{
+    display: inline-block;
+}
+
+.buy .choose .choose2 button{
+    display: inline-block;
+    color:#858585;
+    border-color: #858585;
+    width: 13vw;
+    height: 3.5vw;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-top: 0.5vmin;
+    font-size: 1.2vw;
+    border: 2px solid;
+}
+.buy .choose .choose2 .ram .wuhuo button{
+    position: absolute;
+}
+.buy .choose .choose2 .color .youhuo button{
+    position: absolute;
+}
+.buy .choose .choose2 .color .wuhuo button{
+    margin-left: 13.3vw;
+}
+.buy .choose .choose2 .youhuo button{
+    display: inline-block;
+    color:white;
+    border-color: #fe7b00;
+    background-color: #fe7b00;
+    font-size: 1.8vw;
+}
+.buy .choose .choose2 .ram .youhuo button{
+    margin-left: 13.3vw;
+}
+
+.buy .choose .choose1 input{
+    width: 30vw;
+    height: 3vw;
+}
+
+.buy .choose .choose2 .jiesuan .price{
+    font-size: 3vw;
+    color: #fe5000;
+}
+.buy .choose .choose2 .jiesuan button{
+    font-size: 1.8vw;
+    color: #fe7b00;
+}
+.buy .choose .choose2 .jiesuan button:hover{
+    font-size: 1.8vw;
+    color: #fff;
+    border-color: #fe7b00;
+    background-color: #fe7b00;
+}

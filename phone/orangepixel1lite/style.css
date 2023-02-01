@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Han Sans CN;
+}
+
+::selection{
+    color: #000;
+    background: #fff;
+}
+
+nav{
+    position: fixed;
+    background: #1a1a1a00;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100;
+}
+nav .menu{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.menu .logo{
+    z-index: 200000;
+}
+.menu .logo img{
+    max-width: 15vw;
+    z-index: 200000;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 1vw;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 3vmin;
+    font-weight: 500;
+    padding: 1vmin 1.5vmin;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+    color: #fe9900;
+}
+
+.img{
+    background: url(./img/23.png) no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 70%;
+    left: 59vw;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+}
+
+.center .title{
+    color: #fff;
+    font-size: 7vmin;
+    font-weight: 800;
+}
+.center .sub_title{
+    color: #fff;
+    font-size: 5vmin;
+    font-weight: 100;
+}
+
+.center .btns{
+    margin-top: 10vh;
+}
+.center .btns button{
+    height: 8vmin;
+    width: 20vmin;
+    border-radius: 7px;
+    border: 2px solid #1a1a1a;
+    margin: 0 10px;
+    font-size: 3vmin;
+    font-weight: 600;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 1 ease;
+    color: #1a1a1a;
+    background: none;
+}
+
+.center .btns button:hover{
+    color: #fff;
+    background: #1a1a1a;
+}
+
+.img2{
+    background: url(./img/24.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img3{
+    background: url(./img/25.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img4{
+    background: url(./img/26.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img5{
+    background: url(./img/27.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img6{
+    background: url(./img/28.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img7{
+    background: url(./img/29.png) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.center2{
+    position: absolute;
+    top: 90%;
+    right: 2vw;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+}
+.center2 button{
+    height: 8vmin;
+    width: 20vmin;
+    border-radius: 7px;
+    border: 2px solid #1a1a1a;
+    margin: 0 10px;
+    font-size: 3vmin;
+    font-weight: 600;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 1 ease;
+    color: #1a1a1a;
+    background: none;
+}
+
+.center2 button:hover{
+    color: #fff;
+    background: #1a1a1a;
+}
+
+
+.center3{
+    position: absolute;
+    top: 70%;
+    left: 59vw;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+}
+.center3 .btns{
+    margin-top: 10vh;
+}
+.center3 .btns button{
+    height: 8vmin;
+    width: 20vmin;
+    border-radius: 7px;
+    border: 2px solid #1a1a1a;
+    margin: 0 10px;
+    font-size: 3vmin;
+    font-weight: 600;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 1 ease;
+    color: #1a1a1a;
+    background: none;
+}
+
+.center3 .btns button:hover{
+    color: #fff;
+    background: #1a1a1a;
+}
+
+
+.info{
+    background-size: cover;
+    background: #fe9900;
+}
+.info .qq{
+    text-align: center;
+    font-size: 6vmin;
+    font-weight: 800;
+    color: #1a1a1a;
+}
+.info .aaa{
+    text-align: center;
+    font-size: 1vmin;
+    font-weight: 400;
+    color: #fe9900;
+}
