@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Source Han Sans CN;
+}
+
+::selection{
+    color: #000;
+    background: #fff;
+}
+
+nav{
+    position: fixed;
+    background: #1a1a1a;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 100;
+}
+nav .menu{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.menu .logo{
+    z-index: 200000;
+}
+.menu .logo img{
+    max-width: 15vw;
+    z-index: 200000;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 1vw;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 3vmin;
+    font-weight: 500;
+    padding: 1vmin 1.5vmin;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+.menu ul li a:hover{
+    background: #fe9900;
+    color: #ffffff;
+}
+
+.img{
+    background: url(./img/23.png) no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.center .title{
+    color: #fff;
+    font-size: 7vmin;
+    font-weight: 800;
+}
+.center .sub_title{
+    color: #fff;
+    font-size: 6vmin;
+    font-weight: 400;
+}
+
+.center .btns{
+    margin-top: 10vh;
+}
+.center .btns button{
+    height: 10vmin;
+    width: 25vmin;
+    border-radius: 7px;
+    border: 2px solid white;
+    margin: 0 10px;
+    font-size: 3.5vmin;
+    font-weight: 600;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 1 ease;
+    color: #ffffff;
+    background: none;
+}
+
+.center .btns button:hover{
+    color: #1a1a1a;
+    background: white;
+}
+
+.info{
+    color: #1a1a1a;
+    text-align: left;
+    font-size: 3vmin;
+    font-weight: 400;
+}
+.info .title2{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 250%;
+    font-weight: 900;
+}
+
+.info .potato_info{
+    margin-top: 15vmin;
+    margin-left: 51vw;
+    margin-right: 10vw;
+    text-align: left;
+}
+.info .potato_info img{
+    position: absolute;
+    margin-top: -3.5vh;
+    width: 30vmin;
+    left: 16vw;
+}
+
+.info .admin_info{
+    margin-top: 15vmin;
+    margin-left: 10vw;
+    margin-right: 51vw;
+}
+.info .admin_info img{
+    position: absolute;
+    margin-top: -2vh;
+    width: 20vmin;
+    left: 65vw;
+}
+
+.info .player_info{
+    margin-top: 15vmin;
+    margin-left: 51vw;
+    margin-right: 10vw;
+}
+.info .player_info img{
+    position: absolute;
+    width:35vmin;
+    left: 15vw;
+}
+
+.info .guihua_info{
+    margin-top: 25vmin;
+    margin-bottom: 8%;
+    margin-left: 12%;
+    margin-right: 55%;
+}
+.info .guihua_info img{
+    position: absolute;
+    margin-top: -4vmin;
+    width: 14vw;
+    left: 60vw;
+}
+
+.joinus{
+    background-size: cover;
+    background: #1a1a1a;
+}
+.joinus .title3{
+    text-align: center;
+    font-size: 5vmin;
+    font-weight: 900;
+    color: #ffffff;
+}
+.joinus .qq{
+    text-align: center;
+    font-size: 4vmin;
+    font-weight: 100;
+    color: #ffffff;
+}
+.joinus .aaa{
+    text-align: center;
+    font-size: 4vmin;
+    font-weight: 400;
+    color: #1a1a1a;
+}
