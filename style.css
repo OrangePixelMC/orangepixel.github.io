@@ -94,6 +94,13 @@ nav .menu{
     font-size: 7vmin;
     font-weight: 400;
 }
+
+.center .serverinfo{
+    color: #b0dc02;
+    font-size: 7vmin;
+    font-weight: 400;
+}
+
 .center .subtitle{
     color: #ffffff00;
     font-size: 4vmin;
@@ -124,11 +131,12 @@ nav .menu{
     background: white;
 }
 
-.info{
-    color: #1a1a1a;
-    text-align: left;
+.bei_an_info{
+    background: #1a1a1a;
+    text-align: center;
     font-size: 3vmin;
     font-weight: 400;
+    color: #ffffff;
 }
 .info .title2{
     margin-top: 8%;
